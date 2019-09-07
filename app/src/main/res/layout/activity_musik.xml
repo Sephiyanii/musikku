@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/musik"
+    tools:context=".musik">
+
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12pt"
+        android:drawableStart="@drawable/music"
+        android:text=" Halsey-Without Me "
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:drawableLeft="@drawable/music" />
+
+    <Button
+        android:id="@+id/about1"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12pt"
+        android:drawableStart="@drawable/music"
+        android:text="GEN HALILINTAR – ZIGGY ZAGGA"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:drawableLeft="@drawable/music" />
+
+    <Button
+        android:id="@+id/about2"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12pt"
+        android:drawableStart="@drawable/music"
+        android:text="Rizky Febian – Menari"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:drawableLeft="@drawable/music" />
+</LinearLayout>
